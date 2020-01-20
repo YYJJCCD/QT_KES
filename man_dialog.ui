@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>man_Dialog</class>
+ <widget class="QDialog" name="man_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1146</width>
+    <height>887</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="btn_search">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>250</y>
+     <width>85</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line_title">
+   <property name="geometry">
+    <rect>
+     <x>992</x>
+     <y>110</y>
+     <width>130</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line_no">
+   <property name="geometry">
+    <rect>
+     <x>992</x>
+     <y>155</y>
+     <width>130</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>891</width>
+     <height>651</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>941</x>
+     <y>110</y>
+     <width>63</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>标题</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>941</x>
+     <y>155</y>
+     <width>63</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>编号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>941</x>
+     <y>200</y>
+     <width>63</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>种类</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>992</x>
+     <y>200</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>所有信息</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>图书</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>视频光盘</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>图画</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="btn_quit">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>520</y>
+     <width>101</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cancel</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_update">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>320</y>
+     <width>85</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>修改选中行</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_del">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>410</y>
+     <width>85</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除选中行</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="as_update">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>360</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 89, 92);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>line_title</tabstop>
+  <tabstop>line_no</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>btn_search</tabstop>
+  <tabstop>btn_quit</tabstop>
+  <tabstop>tableView</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

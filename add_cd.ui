@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>add_cd</class>
+ <widget class="QDialog" name="add_cd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>542</width>
+    <height>477</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>0</y>
+     <width>191</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>.PingFang SC0</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>视频光盘</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>128</y>
+     <width>34</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>.PingFang SC0</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>标题</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>165</y>
+     <width>34</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>.PingFang SC0</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>作者</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>239</y>
+     <width>51</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>.PingFang SC0</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>出品者</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>202</y>
+     <width>34</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>.PingFang SC0</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>评级</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>276</y>
+     <width>68</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>.PingFang SC0</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>出品年份</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>313</y>
+     <width>68</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>.PingFang SC0</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>视频时长</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line_title">
+   <property name="geometry">
+    <rect>
+     <x>195</x>
+     <y>130</y>
+     <width>152</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line_author">
+   <property name="geometry">
+    <rect>
+     <x>195</x>
+     <y>167</y>
+     <width>152</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="box_lev">
+   <property name="geometry">
+    <rect>
+     <x>195</x>
+     <y>204</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>未评级</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>一般</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>成人</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>儿童</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTimeEdit" name="timeEdit">
+   <property name="geometry">
+    <rect>
+     <x>195</x>
+     <y>315</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="displayFormat">
+    <string>HH:mm:ss</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>195</x>
+     <y>278</y>
+     <width>99</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="maximumDate">
+    <date>
+     <year>9996</year>
+     <month>12</month>
+     <day>31</day>
+    </date>
+   </property>
+   <property name="calendarPopup">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line_cname">
+   <property name="geometry">
+    <rect>
+     <x>195</x>
+     <y>241</y>
+     <width>152</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="as_title">
+   <property name="geometry">
+    <rect>
+     <x>358</x>
+     <y>130</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 89, 92);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="as_check">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>370</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_ok">
+   <property name="geometry">
+    <rect>
+     <x>311</x>
+     <y>401</y>
+     <width>85</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ok</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_can">
+   <property name="geometry">
+    <rect>
+     <x>402</x>
+     <y>401</y>
+     <width>85</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cancle</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>280</y>
+     <width>63</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(144, 144, 144);</string>
+   </property>
+   <property name="text">
+    <string>当前时间</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="la_time">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>280</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(144, 144, 144);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="as_author">
+   <property name="geometry">
+    <rect>
+     <x>358</x>
+     <y>167</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 89, 92);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="as_cname">
+   <property name="geometry">
+    <rect>
+     <x>358</x>
+     <y>241</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 89, 92);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>line_title</tabstop>
+  <tabstop>line_author</tabstop>
+  <tabstop>box_lev</tabstop>
+  <tabstop>line_cname</tabstop>
+  <tabstop>dateEdit</tabstop>
+  <tabstop>timeEdit</tabstop>
+  <tabstop>btn_ok</tabstop>
+  <tabstop>btn_can</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

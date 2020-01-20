@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>success</class>
+ <widget class="QDialog" name="success">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>798</width>
+    <height>276</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>210</y>
+     <width>131</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ok</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="as_lx">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>63</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>110</y>
+     <width>611</width>
+     <height>81</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>10</y>
+     <width>301</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>.PingFang SC0</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>添加成功</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

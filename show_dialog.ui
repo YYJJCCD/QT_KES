@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>show_dialog</class>
+ <widget class="QDialog" name="show_dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>734</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>90</y>
+     <width>641</width>
+     <height>421</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>60</y>
+     <width>87</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="btn_book">
+      <property name="text">
+       <string>图书</string>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="btn_cdv">
+      <property name="text">
+       <string>视频光盘</string>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="btn_picture">
+      <property name="text">
+       <string>图画</string>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="btn_sum">
+      <property name="text">
+       <string>所有信息</string>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>20</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>.PingFang SC0</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>531</y>
+     <width>601</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <family>.PingFang SC0</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>总数</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <family>.PingFang SC0</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>图书</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <family>.PingFang SC0</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>视屏光盘</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <family>.PingFang SC0</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>图画</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="la_cdv">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLabel" name="la_picture">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="la_sum">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="la_book">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btn_back">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>640</y>
+     <width>85</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>btn_book</tabstop>
+  <tabstop>btn_cdv</tabstop>
+  <tabstop>btn_picture</tabstop>
+  <tabstop>btn_sum</tabstop>
+  <tabstop>tableView</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

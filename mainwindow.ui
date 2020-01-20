@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>942</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="btn_manage">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>180</y>
+      <width>85</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>物品管理</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_add">
+    <property name="geometry">
+     <rect>
+      <x>162</x>
+      <y>180</y>
+      <width>85</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>添加物品</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_show">
+    <property name="geometry">
+     <rect>
+      <x>341</x>
+      <y>180</y>
+      <width>85</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>显示物品库</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_exist">
+    <property name="geometry">
+     <rect>
+      <x>698</x>
+      <y>180</y>
+      <width>85</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>退出系统</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actiondfgdg">
+   <property name="text">
+    <string>dfgdg</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>btn_add</tabstop>
+  <tabstop>btn_show</tabstop>
+  <tabstop>btn_exist</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

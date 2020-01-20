@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>check_Dialog</class>
+ <widget class="QDialog" name="check_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>101</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>75</x>
+     <y>30</y>
+     <width>170</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>容量已满，无法继续添加</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>117</x>
+     <y>60</y>
+     <width>86</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ok</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
